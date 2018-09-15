@@ -1,0 +1,175 @@
+body{
+       background-color: black
+}
+
+#titulo1 {
+  color: green;
+}
+
+#sub1 {
+  color: green;
+  text-align: center;
+}
+
+#texto1 {
+  color: green;
+  text-align: center
+}
+
+#razer1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto
+}
+
+#texto2 {
+  color: green
+}
+
+#texto3 {
+  color: green;
+  font-size: 20px;
+}
+
+#texto5 {
+  color: green
+}
+
+#texto6 {
+  color: green;
+  text-align: center;
+}
+
+#info1 {
+color: green;
+text-align: left 
+}
+
+#info2 {
+color: green;
+text-align: left
+}
+
+#link1 {
+ text-align: center;
+ border-radius: 30px;
+}
+
+#rex {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+#meusjogos {
+color: green;
+text-align: center
+}
+
+#fundo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: 700px;
+}
+
+#jogos {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+      }
+  
+    .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+    .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+    .sidebar a:hover:not(.active) {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+    div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+     
+    @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+#rex {
+  width: 400px;
+  height: 300px;
+}
+
+  #razer1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+
+  #jogos {
+    width: 250px;
+    height: 280px;
+  }
+  
+   @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+       }
+
+       #rex {
+         width: 200px;
+         height: 150px;
+       }
+       
+      #razer1 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 175px;
+      }
+      #fundo2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 275px;
+        height: 200px;
+      }
+
+      #jogos {
+        width: 175px;
+        height: 200px;
+      }
+  }
